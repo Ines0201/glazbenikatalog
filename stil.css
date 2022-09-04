@@ -1,0 +1,104 @@
+*{
+	box-sizing: border-box;
+	
+}
+header{
+	display: flex;
+	width:100%;
+	height:20%;
+	background-color:#EBF5FB;
+}
+
+.logo-zaglavlje{
+	max-width: 100px;
+	flex:1;
+}
+.zaglavlje-div{
+	flex: auto;
+}
+.glavna-nav{
+	display: flex;
+}
+.glavni-naslov{
+	padding: 10px;
+}
+.nav-pod{
+	display:flex;
+	text-align: center;
+	padding-left:20px;
+}
+.big{
+	height:500 px;
+}
+
+
+body{
+	text-align: center;
+	width:100%;
+	height:80%;
+	font-family: Arial, sans-serif;
+	background-color:#EBF5FB;
+	padding: 20px;
+}
+
+body a{
+	text-decoration: none;
+}
+
+body img{
+	width: 100%;	
+	height: 65%;
+}
+
+.sadrzaj{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+	width:50%;
+	height:80%;
+}
+.music-card:hover {
+	transform: scale(1.05);
+	transition: all .2s ease-in-out;
+}
+.music-card{
+	justify-self: center;
+	width: 100%;
+	background-color: #AED6F1 ;
+	
+}
+.card-sadrzaj{
+	justify-self: center;
+}
+.card-naslov{
+	font-size: 16px;
+}
+.card-podnaslov{
+	opacity: 0,6;
+}
+
+.grid-sadrzaj{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+footer{
+	justify-content: bottom;
+	
+}
+
+.float-end{
+	float:right;
+}
+
+.tablica{
+	width: 100%;
+	padding: 10px;
+	border-collapse: collapse;
+	border: solid thin black;
+}
+
+.tablica th, .tablica tr{
+	border: solid thin black;
+}

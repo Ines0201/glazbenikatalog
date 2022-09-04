@@ -1,0 +1,63 @@
+*{
+	box-sizing: border-box;
+	
+}
+header{
+	display: flex;
+	width:100%;
+	height:20%;
+}
+
+.logo-zaglavlje{
+	max-width: 100px;
+	flex:1;
+}
+.zaglavlje-div{
+	flex: auto;
+}
+.glavna-nav{
+	display: flex;
+}
+.glavni-naslov{
+	padding: 10px;
+}
+.nav-pod{
+	display:flex;
+	text-align: center;
+	padding-left:20px;
+}
+.big{
+	height:500 px;
+}
+
+body img{
+	width: 100%;
+	
+}
+body{
+	width:100%;
+	height:80%;
+	font-family: Arial, sans-serif;
+}
+body a{
+	text-decoration: none;
+}
+
+.sadrzaj{
+	padding: 10px;
+}
+.music-card{
+	width: 200px;
+	margin:20px;
+	background-color: #AED6F1 ;
+}
+.card-sadrzaj{
+	padding: 5px;
+}
+.card-naslov{
+	font-size: 16px;
+}
+.card-podnaslov{
+	opacity: 0,6;
+}
+
